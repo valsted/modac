@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+## **MODAC**
+# **M**ulti-**O**bjective **D**ifficulty **A**djusting **C**o-evolution
 
-You can use the [editor on GitHub](https://github.com/valsted/thesis-modac/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Motivated by recent advancements in open-ended research, and the utilization of step-ping stones to unlock potential in genetic algorithms, this thesis presents the Multi-Objective Difficulty Adjusting Coevolution (MODAC) algorithm. MODAC utilizes inno-vation protection to preserve stepping stones uncovered as part of a coevolutionaryprocess in a paired agent-environment setting.  It simultaneously generates progres-sively complex environments and their solutions, approximating aspects of an open-ended process, where many concurrent branches of agent policies proliferate. It doesthis by evolving a pool of environments alongside agents, where the difficulty of theenvironments are adjusted according to the capabilities of the agents.  MODAC pro-vides new insight into the capabilities of the innovation protection mechanism, withexperiments showing it has positive effect when applied to both problem and problemsolver. However, the benefit is minor compared to previous work. It was observed thatthe application of innovation protection lead to better utilization of the coevolved en-vironment pool, ultimately leading to slightly more general agent policies.  The mostcomplex environments evolved by MODAC were solved by a simple genetic algorithm.This shows that MODAC is not able to generate challenges that can not be directlyoptimized towards.  However, the general performance of the agents evolved throughdirect optimization was inferior to those evolved by MODAC. All in all, MODAC showedthat innovation protection can be beneficial when applied to a domain where both theproblem and the solution require reduced selection pressure.  Additionally, dynamically adjusting the difficulty of generated environments led to the discovery of moregeneral solutions
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Content
+- Background :mag:
+- The MODAC algorithm :bomb:
+- Experimental setup :microscope:
+    - Agents :ghost:
+    - Environments :earth_africa:
+- Experimental results :bar_chart:
+- Related Work :books:
+<!-- Code overview -->
 
-### Markdown
+# Background
+// TODO
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# The Algorithm
+// TODO...
+Something along the lines of this:
 
-```markdown
-Syntax highlighted code block
+![img:algo](img/algorithm_sketch.png)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+# Experimental Setup
+// TODO
 
-1. Numbered
-2. List
+{% include_relative sections/experimental_setup.md %}
 
-**Bold** and _Italic_ and `Code` text
+## Agents
+// TODO
+## Environments
+// TODO.. I was suppoed to be a video:
 
-[Link](url) and ![Image](src)
-```
+![vid:fake](video/fake_video.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Experimental Results
+// TODO
+Here, have a nice chart:
 
-### Jekyll Themes
+![img:pw_ip_top_by_complexity](img/pw_ip_top_by_complexity.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/valsted/thesis-modac/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+# Related Work
+// TODO, at least mention POET
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Acknowledgements
+... Thanks everybody
